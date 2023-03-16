@@ -1,3 +1,1 @@
-export const btnCard = () => {
-  console.log("slm mmd");
-};
+export const btnCard = () => {};
