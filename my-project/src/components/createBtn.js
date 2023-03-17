@@ -1,4 +1,4 @@
-import { handleClick } from './handleClick';
+import { handleClick } from "./handleClick";
 export function createBtn(data) {
   let allBtn = ``;
   for (let key in data.days) {
@@ -14,7 +14,8 @@ export function createBtn(data) {
     } else {
       const ableBtn = ` <button
         class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-        onclick="handleClick()"
+        onclick="handleClick(event)"
+        id=${data.id}
       >
         ${key}
       </button>`;

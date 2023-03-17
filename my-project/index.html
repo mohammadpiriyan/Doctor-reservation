@@ -58,42 +58,36 @@
                 </ul>
               </div>
             </div>
-            <div class="flex flex-wrap gap-8 justify-center mb-20">
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
+            <div class="flex flex-wrap gap-8">
+              <form
+                action=""
+                class="flex flex-col gap-2 bg-gray-2 rounded-md p-4 shadow mt-4"
               >
-                شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                یک شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                دو شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                سه شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                چهار شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                پنج شنبه
-              </button>
-              <button
-                class="p-2 w-32 rounded-md shadow-lg bg-gray-2 hover:bg-gray-3"
-              >
-                جمعه
-              </button>
+                <div class="flex gap-4">
+                  <label for="">روز:</label>
+                  <label for="">شنبه</label>
+                </div>
+                <div class="flex flex-wrap gap-8">
+                  <div class="flex flex-col gap-1">
+                    <label for="">نام بیمار:</label>
+                    <input type="text" class="p-2 px-8 rounded-md bg-gray-3" />
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label for="">نام خانوادگی بیمار:</label>
+                    <input type="text" class="p-2 px-8 rounded-md bg-gray-3" />
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label for="">شماره همراه بیمار:</label>
+                    <input type="text" class="p-2 px-16 rounded-md bg-gray-3" />
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="bg-gray-3 rounded-md p-2 w-60 mx-auto mt-4"
+                >
+                  ثبت رزرو
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -101,7 +95,7 @@
     </div>
     <script>
       function x() {
-        console.log('jtaskjdg;');
+        console.log("jtaskjdg;");
       }
     </script>
     <script type="module" src="src/main.js"></script>

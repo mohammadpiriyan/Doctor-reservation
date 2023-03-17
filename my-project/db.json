@@ -5,7 +5,7 @@
       "fullname": "محمد پیریان",
       "Expertise": "روانپزشک",
       "days": {
-        "شنبه": false,
+        "شنبه": true,
         "یک شنبه": false,
         "دو شنبه": false,
         "سه شنبه": false,
