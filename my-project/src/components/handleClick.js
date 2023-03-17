@@ -1,9 +1,11 @@
-export const handleClick = (event) => {
-  console.log(event);
-  const modal = document.getElementById("modal");
+import { submitHandler } from './submitHandler';
+export const handleClick = (event, day) => {
+  // console.log(event);
+  const modal = document.getElementById('modal');
   const targetId = event.target.id;
-  // console.log(targetId);
-
+  // console.log(event.target.innerText);
+  console.log(event);
+  // console.log(mmd);
   fetch(`http://localhost:3002/doctors/${targetId}`)
     .then((response) => response.json())
     .then((data) => {
@@ -33,28 +35,30 @@ export const handleClick = (event) => {
     <form
     action=""
     class="flex flex-col gap-2 bg-gray-2 rounded-md p-4 shadow mt-4"
+    onsubmit='submitHandler(event,"${day}","${data.id}")'
   >
     <div class="flex gap-4">
       <label for="">روز:</label>
-      <label for="">شنبه</label>
+      <label for="" >${day}</label>
     </div>
     <div class="flex flex-wrap gap-8">
       <div class="flex flex-col gap-1">
         <label for="">نام بیمار:</label>
-        <input type="text" class="p-2 w-72 rounded-md bg-gray-3" />
+        <input name='name' type="text" class="p-2 w-72 rounded-md bg-gray-3" />
       </div>
       <div class="flex flex-col gap-1">
         <label for="">نام خانوادگی بیمار:</label>
-        <input type="text" class="p-2 w-72 rounded-md bg-gray-3" />
+        <input name='lastName' type="text" class="p-2 w-72 rounded-md bg-gray-3" />
       </div>
       <div class="flex flex-col gap-1">
         <label for="">شماره همراه بیمار:</label>
-        <input type="text" class="p-2 w-80 rounded-md bg-gray-3" />
+        <input name='phone' type="text" class="p-2 w-80 rounded-md bg-gray-3" />
       </div>
     </div>
     <button
       type="submit"
       class="bg-gray-3 rounded-md p-2 w-60 mx-auto mt-4"
+      
     >
       ثبت رزرو
     </button>

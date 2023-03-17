@@ -6,8 +6,8 @@
       "Expertise": "روانپزشک",
       "days": {
         "شنبه": true,
-        "یک شنبه": false,
-        "دو شنبه": false,
+        "یک شنبه": true,
+        "دو شنبه": true,
         "سه شنبه": false,
         "چهار شنبه": false,
         "پنجشنبه": false,
@@ -23,7 +23,7 @@
         "یک شنبه": false,
         "دو شنبه": false,
         "سه شنبه": false,
-        "چهار شنبه": false,
+        "چهار شنبه": true,
         "پنجشنبه": false,
         "جمعه": false
       }
@@ -53,7 +53,7 @@
         "سه شنبه": false,
         "چهار شنبه": false,
         "پنجشنبه": false,
-        "جمعه": true
+        "جمعه": false
       }
     },
     {
@@ -71,7 +71,30 @@
       }
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "patient": [
+    {
+      "name": "Flavia Cabrera",
+      "lastName": "Holcomb",
+      "phone": "+1 (859) 393-4808",
+      "doctor": "محمد پیریان",
+      "day": "شنبه",
+      "id": 1
+    },
+    {
+      "name": "Deacon Bentley",
+      "lastName": "Crane",
+      "phone": "+1 (654) 631-7248",
+      "doctor": "محمد پیریان",
+      "day": "دو شنبه",
+      "id": 2
+    },
+    {
+      "name": "Jason Frederick",
+      "lastName": "Mcconnell",
+      "phone": "+1 (677) 428-2607",
+      "doctor": "محمد پیریان",
+      "day": "یک شنبه",
+      "id": 3
+    }
+  ]
 }
