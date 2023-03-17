@@ -5,13 +5,13 @@
       "fullname": "محمد پیریان",
       "Expertise": "روانپزشک",
       "days": {
-        "Saturday": false,
-        "Sunday": false,
-        "Monday": false,
-        "Tuesday": false,
-        "Wednesday": false,
-        "Thursday": false,
-        "Friday": false
+        "شنبه": false,
+        "یک شنبه": false,
+        "دو شنبه": false,
+        "سه شنبه": false,
+        "چهار شنبه": false,
+        "پنجشنبه": false,
+        "جمعه": false
       }
     },
     {
@@ -19,13 +19,13 @@
       "fullname": "مسعود محمدی",
       "Expertise": "قلب و عروق",
       "days": {
-        "Saturday": false,
-        "Sunday": false,
-        "Monday": false,
-        "Tuesday": false,
-        "Wednesday": false,
-        "Thursday": false,
-        "Friday": false
+        "شنبه": false,
+        "یک شنبه": false,
+        "دو شنبه": false,
+        "سه شنبه": false,
+        "چهار شنبه": false,
+        "پنجشنبه": false,
+        "جمعه": false
       }
     },
     {
@@ -33,13 +33,13 @@
       "fullname": "سمیه شفیعی",
       "Expertise": "تراپیست",
       "days": {
-        "Saturday": false,
-        "Sunday": false,
-        "Monday": false,
-        "Tuesday": false,
-        "Wednesday": false,
-        "Thursday": false,
-        "Friday": false
+        "شنبه": false,
+        "یک شنبه": false,
+        "دو شنبه": false,
+        "سه شنبه": false,
+        "چهار شنبه": false,
+        "پنجشنبه": false,
+        "جمعه": false
       }
     },
     {
@@ -47,13 +47,13 @@
       "fullname": "رسول مدنی",
       "Expertise": "مغز و اعصاب",
       "days": {
-        "Saturday": false,
-        "Sunday": false,
-        "Monday": false,
-        "Tuesday": false,
-        "Wednesday": false,
-        "Thursday": false,
-        "Friday": false
+        "شنبه": false,
+        "یک شنبه": false,
+        "دو شنبه": false,
+        "سه شنبه": false,
+        "چهار شنبه": false,
+        "پنجشنبه": false,
+        "جمعه": true
       }
     },
     {
@@ -61,13 +61,13 @@
       "fullname": "امیر پارسا کرمیار",
       "Expertise": "کلیک های عصبی",
       "days": {
-        "Saturday": false,
-        "Sunday": false,
-        "Monday": false,
-        "Tuesday": false,
-        "Wednesday": false,
-        "Thursday": false,
-        "Friday": false
+        "شنبه": false,
+        "یک شنبه": false,
+        "دو شنبه": false,
+        "سه شنبه": false,
+        "چهار شنبه": false,
+        "پنجشنبه": false,
+        "جمعه": false
       }
     }
   ],
